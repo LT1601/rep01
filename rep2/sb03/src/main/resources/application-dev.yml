@@ -1,0 +1,16 @@
+debug: false
+server:
+  port: 81
+  servlet:
+    context-path: /turing
+    encoding:
+      charset: UTF-8
+spring:
+  thymeleaf:
+    cache: false
+  mvc:
+    format:
+      date: yyyy-MM-dd
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8
